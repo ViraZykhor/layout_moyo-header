@@ -19,15 +19,12 @@ body {
 
 .menu {
   position: relative;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   height: 60px;
   padding: 0 50px;
   margin: 0;
-
   background-color: #fff;
 }
 
@@ -62,15 +59,12 @@ body {
 
 .item.is-active::after {
   content: '';
-
   position: absolute;
   bottom: 0;
   left: 0;
-
   width: 100%;
   height: 4px;
   border-radius: 8px;
-
   background-color: var(--active-color);
 }
 
@@ -85,7 +79,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-
   list-style: none;
 }
 
